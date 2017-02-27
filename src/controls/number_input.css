@@ -1,0 +1,24 @@
+.number-input{
+  background: #e7e4f9;
+  display: inline-block;
+  float: left;
+  text-align: left;
+  width: 100%;
+  font-size: large;
+}
+
+.number-input-input{
+  display: inline-block;
+  float: right;
+  text-align: right;
+  font-size: large;
+  width: 50%;
+}
+
+.number-input-label{
+  display: inline-block;
+  float: left;
+  text-align: left;
+  line-height: 1.5;
+  margin-left: 2px;
+}

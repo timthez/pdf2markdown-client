@@ -1,0 +1,54 @@
+.control-panel {
+    background: #c9c3f2;
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    text-align: left;
+    overflow: scroll;
+}
+
+.control-panel-h3 {
+    /*margin: 8px;*/
+    width: 100%;
+    text-align: center;
+}
+
+.unordered-list {
+    width: 84px;
+    height: 100%;
+    display: inline-block;
+    background: white;
+}
+
+.unordered-list-add-button {
+    font-size: normal;
+    float: left;
+    /*margin: 0px;*/
+    height: 22px;
+    width: 22px;
+    background: #f0ad4e;
+    color: white;
+    /*width: 100%;*/
+    /*height: 100%;*/
+}
+
+.dropzone {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    /*border-width: 2px;*/
+    /*border-color: rgb(102, 102, 102);*/
+    /*border-style: dashed;*/
+    /*border-radius: 5px;*/
+}
+
+.scrollable-area{
+  display: inline-block;
+  float: left;
+  height: 200px;
+  width: 100%;
+}
+

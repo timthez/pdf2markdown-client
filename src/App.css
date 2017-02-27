@@ -1,0 +1,88 @@
+.App {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  background-color: #222;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 80px;
+  /*padding: 20px;*/
+  color: white;
+  display: inline-block;
+  float: left;
+  width:100%;
+  
+}
+
+.App-intro {
+  font-size: large;
+  margin-top: 80px;
+  height: 100%;
+  display: inline-block;
+  float: left;
+  width: 100%;
+  position: fixed;
+  left: 0px;
+}
+
+
+
+.App-terminal{
+  background: #222;
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: left;
+  overflow: scroll;
+}
+.App-terminal-heading{
+  background: #da614e;
+  height: 50px;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  line-height: 1.7;
+  color: white;
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+.App-control-panel-heading{
+  background: #604dda;
+  height: 50px;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  line-height: 1.7;
+  color: white;
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+.App-terminal-logger{
+  /*padding: 20px;*/
+  /*margin-top: 20px;*/
+  /*margin: 20px;*/
+  padding-bottom: 150px; 
+  padding-left: 20px;
+  display: inline-block;
+  /*float: left;
+  text-align: left;*/
+  font-size: x-small;
+  /*height: 100%;*/
+  /*padding-bottom: -50px;*/
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
